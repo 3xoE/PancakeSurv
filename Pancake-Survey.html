@@ -9,7 +9,7 @@
 
 <body>
     <h1 id="title" class="center">How do you like your Pancakes <strike>served?</strike> Survey!</h1>
-    <p id="discription" class="center">
+    <p id="description" class="center">
         Let us know how you like your pancakes.
     </p>
     
@@ -18,11 +18,11 @@
         <div id="fill-form">       
         <ceneter>
         <label id="email-label">E-Mail:</label>
-        <input type="email" name="email" id="email" required placeholder="eatpancake@anytime.com"></form><br>
+        <input type="email" name="email" id="email" required placeholder="eatpancake@anytime.com"><br>
         <label id="name-label">Name:</label>
-        <input type="text" name="name" id="name" required placeholder="Will D'Vorah"></form><br>
+        <input type="text" name="name" id="name" required placeholder="Will D'Vorah"><br>
         <label id="number-label">Age:</label>
-        <input type="number" name="number" id="number" min="6" max="99" required placeholder="30"></form><br>
+        <input type="number" name="number" id="number" min="6" max="99" required placeholder="30"><br>
         </ceneter>
         </div>
         <br>
@@ -30,12 +30,13 @@
         <br>
         <div id="boxes">
         <label><u>Kind of Pancake</u></label><br>
-        <select id="dropdown" name="Pancake">
-            <option value="Classic Homemade">Classic Homemade</option>
-            <option value="Fluffy Milk-Butter">Fluffy Milk-Butter</option>
-            <option value="Blueberry">Blueberry</option>
-            <option value="Crepe Cake">Crepe Cake</option>
-            <option value="Japanese Souffle Pancake">Japanese Souffle Pancake</option>
+
+        <select id="dropdown" name="pancake">
+            <option value="homemade">Classic Homemade</option>
+            <option value="milkbutter">Fluffy Milk-Butter</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="crepe">Crepe Cake</option>
+            <option value="souffle">Japanese Souffle Pancake</option>
         </select>
         <br>
 
@@ -50,12 +51,13 @@
 
         
         <label><u>Dressing</u></label><br>
-        <input type="radio" class="radio-inline" name="Maple Syrup" value="Maple Syrup">Maple Syrup<br>
-        <input type="radio" class="radio-inline" name="Butterscotch Sauce" value="Butterscotch Sauce">Butterscotch Sauce<br>
-        <input type="radio" class="radio-inline" name="Chocolate Syrup" value="Chocolate Syrup">Chocolate Syrup<br>
-        <input type="radio" class="radio-inline" name="Honey" value="Honey">Honey<br>
-        <input type="radio" class="radio-inline" name="Caramel Sauce" value="Caramel Sauce">Caramel Sauce<br>
-        <input type="radio" class="radio-inline" name="Butter (only)" value="Butter (only)">Butter (only)<br>
+        <input type="radio" class="radio-inline" name="Sauce" value="Maple Syrup">Maple Syrup<br>
+        <input type="radio" class="radio-inline" name="Sauce" value="Butterscotch Sauce">Butterscotch Sauce<br>
+        <input type="radio" class="radio-inline" name="Sauce" value="Chocolate Syrup">Chocolate Syrup<br>
+        <input type="radio" class="radio-inline" name="Sauce" value="Honey">Honey<br>
+        <input type="radio" class="radio-inline" name="Sauce" value="Caramel Sauce">Caramel Sauce<br>
+        <input type="radio" class="radio-inline" name="Sauce" value="Butter (only)">Butter (only)<br>
+
         <textarea placeholder="Additional Comments"></textarea>
 
         <input type="submit" id="submit">
@@ -63,4 +65,5 @@
         </div>
     </form>
 </body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>
