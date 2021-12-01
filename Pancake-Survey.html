@@ -1,0 +1,66 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="css\PancakeSurvey.css">
+        <style>
+
+        </style>
+    </head>
+
+<body>
+    <h1 id="title" class="center">How do you like your Pancakes <strike>served?</strike> Survey!</h1>
+    <p id="discription" class="center">
+        Let us know how you like your pancakes.
+    </p>
+    
+
+    <form id="survey-form">
+        <div id="fill-form">       
+        <ceneter>
+        <label id="email-label">E-Mail:</label>
+        <input type="email" name="email" id="email" required placeholder="eatpancake@anytime.com"></form><br>
+        <label id="name-label">Name:</label>
+        <input type="text" name="name" id="name" required placeholder="Will D'Vorah"></form><br>
+        <label id="number-label">Age:</label>
+        <input type="number" name="number" id="number" min="6" max="99" required placeholder="30"></form><br>
+        </ceneter>
+        </div>
+        <br>
+
+        <br>
+        <div id="boxes">
+        <label><u>Kind of Pancake</u></label><br>
+        <select id="dropdown" name="Pancake">
+            <option value="Classic Homemade">Classic Homemade</option>
+            <option value="Fluffy Milk-Butter">Fluffy Milk-Butter</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="Crepe Cake">Crepe Cake</option>
+            <option value="Japanese Souffle Pancake">Japanese Souffle Pancake</option>
+        </select>
+        <br>
+
+        <br>
+        <label><u>Toppings</u></label><br>
+        <input type="checkbox" class="checkbox" name="Blackberries" value="Blackberries">Blackberries<br>
+        <input type="checkbox" class="checkbox" name="Strawberries" value="Strawberries">Strawberries<br>
+        <input type="checkbox" class="checkbox" name="Whipped Cream" value="Whipped Cream">Whipped Cream<br>
+        <input type="checkbox" class="checkbox" name="Banana Slices" value="Banana Slices">Banana Slices<br>
+        <input type="checkbox" class="checkbox" name="Rasberries" value="Rasberries">Rasberries<br>
+        <br>
+
+        
+        <label><u>Dressing</u></label><br>
+        <input type="radio" class="radio-inline" name="Maple Syrup" value="Maple Syrup">Maple Syrup<br>
+        <input type="radio" class="radio-inline" name="Butterscotch Sauce" value="Butterscotch Sauce">Butterscotch Sauce<br>
+        <input type="radio" class="radio-inline" name="Chocolate Syrup" value="Chocolate Syrup">Chocolate Syrup<br>
+        <input type="radio" class="radio-inline" name="Honey" value="Honey">Honey<br>
+        <input type="radio" class="radio-inline" name="Caramel Sauce" value="Caramel Sauce">Caramel Sauce<br>
+        <input type="radio" class="radio-inline" name="Butter (only)" value="Butter (only)">Butter (only)<br>
+        <textarea placeholder="Additional Comments"></textarea>
+
+        <input type="submit" id="submit">
+        </div>
+        </div>
+    </form>
+</body>
+</html>
