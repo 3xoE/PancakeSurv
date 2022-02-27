@@ -1,0 +1,38 @@
+Kind:
+Classic Homemade
+Fluffy Milk-Butter
+Japanese Souffle Pancake
+Blueberry
+Crepe Cake
+
+
+dressing:
+Maple Syrup
+Butterscotch Sauce
+Chocolate Syrup
+Honey
+Caramel Sauce
+Butter
+
+toppings:
+rasberries
+strawberries
+blackberries
+banana slices
+
+sides:
+Bacon
+egg muffins
+Sausage links
+eggs(general)
+
+drink:
+Orange Juice
+Coffee
+Milk (strawberry or chocolate included)
+Mimosa?
+
+
+
+
+
